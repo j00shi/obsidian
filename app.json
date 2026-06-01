@@ -1,0 +1,23 @@
+{
+  "showInlineTitle": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "! New Notes",
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "userIgnoreFilters": [
+    ".git/",
+    ".git"
+  ],
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "spellcheck": true,
+  "readableLineLength": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./Anhang"
+}

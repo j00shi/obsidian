@@ -1,0 +1,60 @@
+# Obsidian workspace and UI state
+workspace.json
+workspace-mobile.json
+
+# Ignore everything in plugins except the data.json files (the settings)
+plugins/*/*
+!plugins/*/data.json
+
+# Only ignore recent-files-obsidian because of constant changes
+plugins/recent-files-obsidian/data.json
+plugins/obsidian-icon-folder/data.json
+
+# Obsidian cache and generated files
+cache
+backups
+graph.json
+
+# Obsidian Publish settings (only needed if you use Obsidian Publish)
+publish.json
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder metadata
+Icon?
+._*
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux trash
+.Trash-*
+
+# Temp and backup files
+*~
+*.swp
+*.tmp
+*.bak
+
+# Log files
+*.log
+
+# Node dependencies (if you use JavaScript/TypeScript plugins)
+node_modules/
+
+# Python virtual environments (if you use Python scripts)
+.venv/
+venv/
+
+# Compiled binaries and object files
+*.exe
+*.dll
+*.o
+*.out
+*.pyc
+__pycache__/
