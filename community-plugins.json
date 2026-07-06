@@ -9,12 +9,11 @@
   "obsidian-editor-shortcuts",
   "obsidian-regex-replace",
   "obsidian-charts",
-  "obsidian-linter",
   "automatic-table-of-contents",
-  "inline-math",
-  "easy-typing-obsidian",
   "editor-width-slider",
   "recent-files-obsidian",
-  "solve",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-linter",
+  "easy-typing-obsidian",
+  "solve"
 ]
