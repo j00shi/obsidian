@@ -38,6 +38,7 @@
 - Smart Typography
 - Solve
 - Style Settings
+- Syncable Dictionary
 - Tasks
 - Templater
 - Time Ruler
