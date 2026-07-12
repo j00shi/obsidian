@@ -1,5 +1,7 @@
 # My Obsidian Configuration
 
+![screenshot](./screenshot.png)
+
 ## Installing the Config
 
 1. Open a terminal inside the Obsidian vault
