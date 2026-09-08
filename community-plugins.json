@@ -4,17 +4,15 @@
   "editing-toolbar",
   "obsidian-trash-explorer",
   "obsidian-excalidraw-plugin",
-  "obsidian-kanban",
   "obsidian-minimal-settings",
   "obsidian-editor-shortcuts",
   "obsidian-regex-replace",
-  "obsidian-charts",
-  "automatic-table-of-contents",
   "editor-width-slider",
   "recent-files-obsidian",
   "obsidian-git",
   "obsidian-linter",
   "easy-typing-obsidian",
   "solve",
-  "syncable-dictionary"
+  "syncable-dictionary",
+  "obsidian-languagetool-plugin"
 ]

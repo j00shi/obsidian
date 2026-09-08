@@ -1,0 +1,9 @@
+{
+  "serverUrl": "http://localhost:8010",
+  "urlMode": "custom",
+  "glassBg": false,
+  "shouldAutoCheck": true,
+  "autoCheckDelay": 5000,
+  "pickyMode": true,
+  "apiKeyStorage": "local"
+}
