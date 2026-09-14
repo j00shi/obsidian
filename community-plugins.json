@@ -9,10 +9,10 @@
   "obsidian-regex-replace",
   "editor-width-slider",
   "recent-files-obsidian",
-  "obsidian-git",
   "obsidian-linter",
   "easy-typing-obsidian",
   "solve",
   "syncable-dictionary",
-  "obsidian-languagetool-plugin"
+  "obsidian-languagetool-plugin",
+  "tasknotes"
 ]
