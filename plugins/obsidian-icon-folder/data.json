@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🏖",
-      "✅",
-      "📂",
-      "➕",
-      "✏"
+      "📦",
+      "🗂",
+      "📺",
+      "📅",
+      "🏖"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -45,8 +45,7 @@
   "Informatik": "💻",
   "Excalidraw": "✏",
   "! New Notes": "➕",
-  "TaskNotes": "✅",
-  "Archive/TODO": "✅",
+  "TaskNotes": "🗂",
   "Archive/TODO/Alles.md": "LiInfinity",
   "Archive/TODO/Aufgaben.md": "LiHome",
   "Archive/TODO/Ereignisse.md": "LiCalendarClock",
@@ -60,5 +59,9 @@
   "Archive/TODO/Merken.md": "LiArchive",
   "Archive/TODO/Priorität.md": "LiStar",
   "Archive/TODO/Wishlist.md": "LiPackage",
-  "Archive/TODO/Watchlist.md": "LiTv"
+  "Archive/TODO/Watchlist.md": "LiTv",
+  "Events.base": "📅",
+  "Media.base": "📺",
+  "To-do.base": "✅",
+  "Wishlist.base": "📦"
 }
