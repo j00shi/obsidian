@@ -3,7 +3,6 @@
   "table-editor-obsidian",
   "editing-toolbar",
   "obsidian-excalidraw-plugin",
-  "obsidian-minimal-settings",
   "obsidian-editor-shortcuts",
   "editor-width-slider",
   "recent-files-obsidian",
@@ -11,5 +10,6 @@
   "easy-typing-obsidian",
   "syncable-dictionary",
   "obsidian-languagetool-plugin",
-  "tasknotes"
+  "tasknotes",
+  "opencode"
 ]

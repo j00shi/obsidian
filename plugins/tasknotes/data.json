@@ -1,7 +1,7 @@
 {
   "tasksFolder": "TaskNotes/Tasks",
-  "moveArchivedTasks": false,
-  "archiveFolder": "TaskNotes/Archive",
+  "moveArchivedTasks": true,
+  "archiveFolder": "Archive/Tasks",
   "taskTag": "task",
   "taskIdentificationMethod": "tag",
   "hideIdentifyingTagsInCards": false,
@@ -41,7 +41,7 @@
   "calendarViewSettings": {
     "defaultView": "dayGridMonth",
     "customDayCount": 3,
-    "slotDuration": "00:30:00",
+    "slotDuration": "01:00:00",
     "slotMinTime": "00:00:00",
     "slotMaxTime": "24:00:00",
     "scrollTime": "08:00:00",
@@ -84,7 +84,7 @@
   "showPomodoroInStatusBar": true,
   "enableTaskLinkOverlay": true,
   "disableOverlayOnAlias": false,
-  "enableInstantTaskConvert": true,
+  "enableInstantTaskConvert": false,
   "useDefaultsOnInstantConvert": true,
   "preserveCheckboxOnConvert": false,
   "taskModalTabMovesFocus": true,
@@ -267,7 +267,7 @@
   "completionMenuAsSubmenu": true,
   "showExpandableSubtasks": true,
   "expandSubtasksByDefault": false,
-  "subtaskChevronPosition": "right",
+  "subtaskChevronPosition": "left",
   "viewsButtonAlignment": "right",
   "hideCompletedFromOverdue": true,
   "icsIntegration": {
@@ -488,6 +488,6 @@
     "defaultReminderMinutes": null
   },
   "enableDebugLogging": false,
-  "lastSeenVersion": "4.13.0",
+  "lastSeenVersion": "4.13.1",
   "lastNotifiedReleaseVersion": "4.13.1"
 }
