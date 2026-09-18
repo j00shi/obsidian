@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🔔",
+      "🛒",
       "📦",
       "🗂",
-      "📺",
-      "📅",
-      "🏖"
+      "📺"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -63,5 +63,7 @@
   "Events.base": "📅",
   "Media.base": "📺",
   "To-do.base": "✅",
-  "Wishlist.base": "📦"
+  "Wishlist.base": "📦",
+  "Einkaufsliste.base": "🛒",
+  "Remind-me.base": "🔔"
 }

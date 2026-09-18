@@ -9,7 +9,7 @@
   "taskPropertyName": "",
   "taskPropertyValue": "",
   "excludedFolders": "",
-  "defaultTaskPriority": "normal",
+  "defaultTaskPriority": "",
   "defaultTaskStatus": "open",
   "taskOrgFiltersCollapsed": false,
   "taskFilenameFormat": "zettel",
@@ -29,7 +29,7 @@
     "defaultRecurrence": "none",
     "defaultDueDate": "none",
     "defaultDueTime": "none",
-    "defaultScheduledDate": "today",
+    "defaultScheduledDate": "none",
     "defaultScheduledTime": "none",
     "bodyTemplate": "",
     "useBodyTemplate": false,
@@ -488,5 +488,6 @@
     "defaultReminderMinutes": null
   },
   "enableDebugLogging": false,
-  "lastSeenVersion": "4.13.0"
+  "lastSeenVersion": "4.13.0",
+  "lastNotifiedReleaseVersion": "4.13.1"
 }
