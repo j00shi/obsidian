@@ -3,7 +3,7 @@
   "showViewHeader": true,
   "nativeMenus": false,
   "showRibbon": true,
-  "translucency": false,
+  "translucency": true,
   "accentColor": "",
   "theme": "obsidian"
 }
