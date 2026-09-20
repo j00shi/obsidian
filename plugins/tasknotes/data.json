@@ -9,7 +9,7 @@
   "taskPropertyName": "",
   "taskPropertyValue": "",
   "excludedFolders": "",
-  "defaultTaskPriority": "",
+  "defaultTaskPriority": "none",
   "defaultTaskStatus": "open",
   "taskOrgFiltersCollapsed": false,
   "taskFilenameFormat": "zettel",

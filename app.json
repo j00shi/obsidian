@@ -19,5 +19,6 @@
   "spellcheck": false,
   "readableLineLength": true,
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./Attachments"
+  "attachmentFolderPath": "./Attachments",
+  "promptDelete": false
 }
