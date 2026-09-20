@@ -1,0 +1,7 @@
+{
+  "runInBackground": true,
+  "createTrayIcon": true,
+  "focusOnRelaunch": true,
+  "trayIconPath": "./Notes/.obsidian/obsidian_logo_small.png",
+  "trayTooltip": "Obsidian ({{vault}})"
+}
