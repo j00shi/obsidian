@@ -5,8 +5,8 @@
 ## Installing the Config
 
 1. Open a terminal inside the Obsidian vault
-2. Run `git clone https://codeberg.org/Joshi/obsidian.git`
-3. Rename the directory to `.obsidian` or run `mv obsidian .obsidian` (remove the `.obsidian` if one already exists)
+2. Make sure no `.obsidian` directory exists in the current directory
+3. Run `git clone https://codeberg.org/Joshi/obsidian.git .obsidian`
 4. Go to settings > Community Plugins and press "Turn on community plugins"
 
 ## Recommended plugins
@@ -63,7 +63,7 @@ _(Using GitHub as example)_
 
 1. Go to the directory you want to push: `cd <VAULT_PATH>`
     - Example: `cd Documents/vault`
-2. Initialize Github (main branch usually called "main"): `git init --initial-branch=main`
+2. Initialize GitHub (main branch usually called "main"): `git init --initial-branch=main`
 3. Add your Git repository (remote name usually "origin") and add the URL in this format: `git remote add origin https://<PERSONAL_ACCESS_TOKEN>@github.com/<USERNAME>/<REPO>.git`
     - Example URL: `https://ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX@github.com/joshua/my-notes.git`
 4. Download history: `git fetch origin`
@@ -91,6 +91,27 @@ _(Using GitHub as example)_
 https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github
 
 _You can only clone to a subfolder, otherwise it would overwrite the Git plugin._
+
+## MEGA Setup
+
+`.megaignore` file (place in vault):
+
+```
+-:Thumbs.db
+-:desktop.ini
+-:~*
+#-:.*
+-:*~.*
+-:*.crdownload
+-:*.sb-????????-??????
+-:*.tmp
+-:.obsidian/workspace.json
+-:.obsidian/workspace-mobile.json
+-:.obsidian/graph.json
+-:.obsidian/publish.json
+-:.obsidian/plugins/recent-files-obsidian/data.json
+-s:*
+```
 
 ## Garbage Collection
 

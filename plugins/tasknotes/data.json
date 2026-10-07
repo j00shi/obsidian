@@ -1,6 +1,6 @@
 {
   "tasksFolder": "TaskNotes/Tasks",
-  "moveArchivedTasks": true,
+  "moveArchivedTasks": false,
   "archiveFolder": "Archive/Tasks",
   "taskTag": "task",
   "taskIdentificationMethod": "tag",
@@ -138,7 +138,7 @@
     "propertyValue": ""
   },
   "inlineTaskConvertFolder": "{{currentNotePath}}",
-  "disableNoteIndexing": false,
+  "disableNoteIndexing": true,
   "suggestionDebounceMs": 0,
   "fieldMapping": {
     "title": "title",
@@ -206,7 +206,7 @@
       "label": "In progress",
       "color": "#0066cc",
       "isCompleted": false,
-      "excludeFromCycle": false,
+      "excludeFromCycle": true,
       "order": 2,
       "autoArchive": false,
       "autoArchiveDelay": 5
@@ -488,11 +488,12 @@
     "defaultReminderMinutes": null
   },
   "enableDebugLogging": false,
-  "lastSeenVersion": "4.13.1",
-  "lastNotifiedReleaseVersion": "4.13.2",
+  "lastSeenVersion": "4.13.3",
+  "lastNotifiedReleaseVersion": "4.13.8",
   "pomodoroState": {
     "isRunning": false,
     "timeRemaining": 1500
   },
-  "lastPomodoroDate": "2026-09-17"
+  "lastPomodoroDate": "2026-09-20",
+  "autoArchiveQueue": []
 }

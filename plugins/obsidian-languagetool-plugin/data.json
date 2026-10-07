@@ -1,6 +1,7 @@
 {
-  "serverUrl": "http://localhost:8010",
+  "serverUrl": "http://localhost:8081",
   "urlMode": "custom",
+  "showRibbonIcon": false,
   "glassBg": false,
   "shouldAutoCheck": true,
   "autoCheckDelay": 5000,
