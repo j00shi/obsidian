@@ -42,6 +42,7 @@
     "defaultView": "dayGridMonth",
     "customDayCount": 3,
     "slotDuration": "01:00:00",
+    "slotHeight": 24,
     "slotMinTime": "00:00:00",
     "slotMaxTime": "24:00:00",
     "scrollTime": "08:00:00",
@@ -119,6 +120,36 @@
         "propertyId": "priority",
         "trigger": "!",
         "enabled": false
+      },
+      {
+        "propertyId": "field_1793811931784",
+        "trigger": "tier:",
+        "enabled": false
+      },
+      {
+        "propertyId": "field_1793817002346",
+        "trigger": "season:",
+        "enabled": false
+      },
+      {
+        "propertyId": "field_1793817003453",
+        "trigger": "episode:",
+        "enabled": false
+      },
+      {
+        "propertyId": "field_1793817148514",
+        "trigger": "chapter:",
+        "enabled": false
+      },
+      {
+        "propertyId": "field_1793817808702",
+        "trigger": "timestamp:",
+        "enabled": false
+      },
+      {
+        "propertyId": "field_1793821829814",
+        "trigger": "author:",
+        "enabled": false
       }
     ]
   },
@@ -149,12 +180,14 @@
     "contexts": "contexts",
     "projects": "projects",
     "attachments": "attachments",
+    "assignees": "assignees",
     "timeEstimate": "timeEstimate",
     "completedDate": "completedDate",
     "dateCreated": "dateCreated",
     "dateModified": "dateModified",
     "recurrence": "recurrence",
     "recurrenceAnchor": "recurrence_anchor",
+    "recurrenceOriginalDate": "recurrence_original_date",
     "recurrenceParent": "recurrence_parent",
     "occurrenceDate": "occurrence_date",
     "occurrenceMaterialization": "occurrence_materialization",
@@ -184,7 +217,7 @@
       "label": "None",
       "color": "#cccccc",
       "isCompleted": false,
-      "excludeFromCycle": false,
+      "excludeFromCycle": true,
       "order": 0,
       "autoArchive": false,
       "autoArchiveDelay": 5
@@ -212,13 +245,37 @@
       "autoArchiveDelay": 5
     },
     {
+      "id": "status_1792793512719",
+      "value": "paused",
+      "label": "Paused",
+      "color": "#6366f1",
+      "completed": false,
+      "isCompleted": false,
+      "excludeFromCycle": true,
+      "order": 3,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    },
+    {
       "id": "done",
       "value": "done",
       "label": "Done",
       "color": "#00aa00",
       "isCompleted": true,
       "excludeFromCycle": false,
-      "order": 3,
+      "order": 4,
+      "autoArchive": false,
+      "autoArchiveDelay": 5
+    },
+    {
+      "id": "status_1792426729864",
+      "value": "dropped",
+      "label": "Dropped",
+      "color": "#ff5f57",
+      "completed": false,
+      "isCompleted": true,
+      "excludeFromCycle": true,
+      "order": 5,
       "autoArchive": false,
       "autoArchiveDelay": 5
     }
@@ -296,7 +353,44 @@
   "apiAuthToken": "",
   "enableMCP": false,
   "webhooks": [],
-  "userFields": [],
+  "userFields": [
+    {
+      "id": "field_1793811931784",
+      "displayName": "Tier",
+      "key": "tier",
+      "type": "text"
+    },
+    {
+      "id": "field_1793817002346",
+      "displayName": "Season",
+      "key": "season",
+      "type": "number"
+    },
+    {
+      "id": "field_1793817003453",
+      "displayName": "Episode",
+      "key": "episode",
+      "type": "number"
+    },
+    {
+      "id": "field_1793817148514",
+      "displayName": "Chapter",
+      "key": "chapter",
+      "type": "number"
+    },
+    {
+      "id": "field_1793817808702",
+      "displayName": "Timestamp",
+      "key": "timestamp",
+      "type": "text"
+    },
+    {
+      "id": "field_1793821829814",
+      "displayName": "Author",
+      "key": "author",
+      "type": "text"
+    }
+  ],
   "modalFieldsConfig": {
     "version": 1,
     "fields": [
@@ -389,6 +483,76 @@
         "visibleInCreation": true,
         "visibleInEdit": true,
         "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "field_1793811931784",
+        "fieldType": "user",
+        "group": "custom",
+        "displayName": "Tier",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true
+      },
+      {
+        "id": "field_1793817002346",
+        "fieldType": "user",
+        "group": "custom",
+        "displayName": "Season",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "field_1793817003453",
+        "fieldType": "user",
+        "group": "custom",
+        "displayName": "Episode",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 2,
+        "enabled": true
+      },
+      {
+        "id": "field_1793817148514",
+        "fieldType": "user",
+        "group": "custom",
+        "displayName": "Chapter",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 3,
+        "enabled": true
+      },
+      {
+        "id": "field_1793817808702",
+        "fieldType": "user",
+        "group": "custom",
+        "displayName": "Timestamp",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 4,
+        "enabled": true
+      },
+      {
+        "id": "field_1793821829814",
+        "fieldType": "user",
+        "group": "custom",
+        "displayName": "Author",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 5,
+        "enabled": true
+      },
+      {
+        "id": "attachments",
+        "fieldType": "organization",
+        "group": "organization",
+        "displayName": "Attachments",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 2,
         "enabled": true
       }
     ],
@@ -483,17 +647,23 @@
     "eventColorId": null,
     "syncTrigger": "scheduled",
     "createAsAllDay": true,
+    "showAllDayAsFree": false,
     "defaultEventDuration": 60,
     "includeObsidianLink": true,
-    "defaultReminderMinutes": null
+    "defaultReminderMinutes": null,
+    "syncTimeblocks": false,
+    "timeblockTargetCalendarId": "",
+    "timeblockEventTitleTemplate": "{{title}}"
   },
   "enableDebugLogging": false,
-  "lastSeenVersion": "4.13.3",
-  "lastNotifiedReleaseVersion": "4.13.8",
+  "lastSeenVersion": "4.18.1",
+  "lastNotifiedReleaseVersion": "4.18.1",
   "pomodoroState": {
     "isRunning": false,
     "timeRemaining": 1500
   },
-  "lastPomodoroDate": "2026-09-20",
-  "autoArchiveQueue": []
+  "lastPomodoroDate": "2026-11-10",
+  "autoArchiveQueue": [],
+  "nlpEnterToSubmit": false,
+  "resetRecurringStatusAfterOccurrence": false
 }

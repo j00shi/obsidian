@@ -97,19 +97,39 @@ _You can only clone to a subfolder, otherwise it would overwrite the Git plugin.
 `.megaignore` file (place in vault):
 
 ```
+# OS metadata
 -:Thumbs.db
 -:desktop.ini
+-:.DS_Store
+-:._*
+-:.Spotlight-V100
+-:.Trashes
+-:.fseventsd
+-:.TemporaryItems
+-:.localized
+-:.Trash-*
+
+# Editor / temp files
 -:~*
-#-:.*
 -:*~.*
+-:*~
+-:*.tmp
+-:*.swp
+-:*.swo
 -:*.crdownload
 -:*.sb-????????-??????
--:*.tmp
--:.obsidian/workspace.json
--:.obsidian/workspace-mobile.json
--:.obsidian/graph.json
--:.obsidian/publish.json
--:.obsidian/plugins/recent-files-obsidian/data.json
+
+# Obsidian volatile state (sync the rest of .obsidian)
+-fp:.obsidian/workspace.json
+-fp:.obsidian/workspace-mobile.json
+-fp:.obsidian/graph.json
+-fp:.obsidian/publish.json
+-dp:.obsidian/plugins/recent-files-obsidian
+-dp:.obsidian/plugins/obsidian-languagetool-plugin
+-dp:.obsidian/plugins/background-tray
+
+# VCS and symlinks
+-d:.git
 -s:*
 ```
 

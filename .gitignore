@@ -2,6 +2,11 @@
 workspace.json
 workspace-mobile.json
 
+# Private bookmarks etc.
+bookmarks.json
+templates.json
+zk-prefixer.json
+
 # Ignore everything in plugins except the data.json files (the settings)
 plugins/*/*
 !plugins/*/data.json
