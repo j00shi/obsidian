@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🗓",
       "🌸",
       "🏷",
       "💡",
-      "🤓",
-      "📐"
+      "🤓"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -68,5 +68,6 @@
   "Idea.base": "💡",
   "Homework.base": "🤓",
   "Missing Tags.base": "🏷",
-  "Anime Tierlist.base": "🌸"
+  "Anime Tierlist.base": "🌸",
+  "Wrong Date.base": "🗓"
 }

@@ -656,13 +656,13 @@
     "timeblockEventTitleTemplate": "{{title}}"
   },
   "enableDebugLogging": false,
-  "lastSeenVersion": "4.18.1",
+  "lastSeenVersion": "4.18.4",
   "lastNotifiedReleaseVersion": "4.18.1",
   "pomodoroState": {
     "isRunning": false,
     "timeRemaining": 1500
   },
-  "lastPomodoroDate": "2026-11-10",
+  "lastPomodoroDate": "2026-11-16",
   "autoArchiveQueue": [],
   "nlpEnterToSubmit": false,
   "resetRecurringStatusAfterOccurrence": false

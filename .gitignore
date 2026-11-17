@@ -11,6 +11,9 @@ zk-prefixer.json
 plugins/*/*
 !plugins/*/data.json
 
+# Don't ignore Easy Typing user rules
+!plugins/easy-typing-obsidian/user-rules.json
+
 # Only ignore recent-files-obsidian because of constant changes
 plugins/recent-files-obsidian/data.json
 

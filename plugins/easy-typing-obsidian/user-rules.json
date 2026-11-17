@@ -1,0 +1,807 @@
+[
+	{
+		"trigger": "->",
+		"replacement": "→",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794555988980-a59d"
+	},
+	{
+		"trigger": "<-",
+		"replacement": "←",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794903372432-j3je"
+	},
+	{
+		"trigger": "...",
+		"replacement": "…",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794556035297-mhqd"
+	},
+	{
+		"trigger": "=>",
+		"replacement": "⇒",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904566908-576s"
+	},
+	{
+		"trigger": "<=",
+		"replacement": "⇐",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904597564-9zu6"
+	},
+	{
+		"trigger": "<=>",
+		"replacement": "⇔",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904546875-p7ay"
+	},
+	{
+		"trigger": "!=",
+		"replacement": "≠",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904513732-ozsg"
+	},
+	{
+		"trigger": "<>",
+		"replacement": "≠",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904539263-qguj"
+	},
+	{
+		"trigger": "+-",
+		"replacement": "±",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904537664-0sb8"
+	},
+	{
+		"trigger": "=<",
+		"replacement": "≤",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904539405-3k9k"
+	},
+	{
+		"trigger": ">=",
+		"replacement": "≥",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904536649-wcdh"
+	},
+	{
+		"trigger": "~=",
+		"replacement": "≈",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904538884-vqjv"
+	},
+	{
+		"trigger": "^^",
+		"replacement": "√",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904509614-9dk7"
+	},
+	{
+		"trigger": ":fr",
+		"replacement": "\\frac{|}{}",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904557291-leba"
+	},
+	{
+		"trigger": ":m",
+		"replacement": "\\begin{matrix} | \\end{matrix}",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904588620-s32n"
+	},
+	{
+		"trigger": ":pm",
+		"replacement": "\\begin{pmatrix} | \\end{pmatrix}",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904548699-6ysy"
+	},
+	{
+		"trigger": ":bm",
+		"replacement": "\\begin{bmatrix} | \\end{bmatrix}",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904532986-zykk"
+	},
+	{
+		"trigger": ":vm",
+		"replacement": "\\begin{vmatrix} | \\end{vmatrix}",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904596533-rtkt"
+	},
+	{
+		"trigger": ":c",
+		"replacement": "\\begin{cases} | \\end{cases}",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904582739-t5d6"
+	},
+	{
+		"trigger": "2#",
+		"replacement": "##",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904575986-d8z1"
+	},
+	{
+		"trigger": "3#",
+		"replacement": "###",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904561012-3o12"
+	},
+	{
+		"trigger": "4#",
+		"replacement": "####",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904594357-jy28"
+	},
+	{
+		"trigger": "5#",
+		"replacement": "#####",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904550291-gxjn"
+	},
+	{
+		"trigger": "6#",
+		"replacement": "######",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904599548-ah2p"
+	},
+	{
+		"trigger": "mm2",
+		"replacement": "mm²",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904585055-1n8d"
+	},
+	{
+		"trigger": "cm2",
+		"replacement": "cm²",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904543626-h0v5"
+	},
+	{
+		"trigger": "m2",
+		"replacement": "m²",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904572502-fz03"
+	},
+	{
+		"trigger": "km2",
+		"replacement": "km²",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904563237-64to"
+	},
+	{
+		"trigger": "mm3",
+		"replacement": "mm³",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904531894-orvb"
+	},
+	{
+		"trigger": "cm3",
+		"replacement": "cm³",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904528613-pwj7"
+	},
+	{
+		"trigger": "ccm",
+		"replacement": "cm³",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904572007-ldup"
+	},
+	{
+		"trigger": "m3",
+		"replacement": "m³",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904519260-3ncs"
+	},
+	{
+		"trigger": "km3",
+		"replacement": "km³",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904532877-hydp"
+	},
+	{
+		"trigger": ":eur",
+		"replacement": "€",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904524058-ju40"
+	},
+	{
+		"trigger": ":gbp",
+		"replacement": "£",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904522124-nds0"
+	},
+	{
+		"trigger": ":yen",
+		"replacement": "¥",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904581275-6e1t"
+	},
+	{
+		"trigger": ":cent",
+		"replacement": "¢",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904571129-kso5"
+	},
+	{
+		"trigger": ":inr",
+		"replacement": "₹",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904594659-94by"
+	},
+	{
+		"trigger": ":(c",
+		"replacement": "©",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904597257-eys2"
+	},
+	{
+		"trigger": ":tm",
+		"replacement": "™",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904565208-1n95"
+	},
+	{
+		"trigger": ":(r",
+		"replacement": "®",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904515282-w7id"
+	},
+	{
+		"trigger": ":lorem",
+		"replacement": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur placeat deserunt deleniti eaque neque odio repellendus. Corrupti, maxime fugiat minus error rerum est. Facere labore totam cumque itaque minus!",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904536657-96hv"
+	},
+	{
+		"trigger": ":^0",
+		"replacement": "⁰",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904600948-uzcf"
+	},
+	{
+		"trigger": ":^1",
+		"replacement": "¹",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904510892-ubnh"
+	},
+	{
+		"trigger": ":^2",
+		"replacement": "²",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904601930-578a"
+	},
+	{
+		"trigger": ":^3",
+		"replacement": "³",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904535407-1o7b"
+	},
+	{
+		"trigger": ":^4",
+		"replacement": "⁴",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904555027-i4jf"
+	},
+	{
+		"trigger": ":^5",
+		"replacement": "⁵",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904565893-u88x"
+	},
+	{
+		"trigger": ":^6",
+		"replacement": "⁶",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904596133-igb9"
+	},
+	{
+		"trigger": ":^7",
+		"replacement": "⁷",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904514343-p51q"
+	},
+	{
+		"trigger": ":^8",
+		"replacement": "⁸",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904519482-jzgm"
+	},
+	{
+		"trigger": ":^9",
+		"replacement": "⁹",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904581228-hdpc"
+	},
+	{
+		"trigger": ":^+",
+		"replacement": "⁺",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904584618-9keo"
+	},
+	{
+		"trigger": ":^-",
+		"replacement": "⁻",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904570567-cs87"
+	},
+	{
+		"trigger": ":^=",
+		"replacement": "⁼",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904543209-aqet"
+	},
+	{
+		"trigger": ":^(",
+		"replacement": "⁽",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904509472-sacm"
+	},
+	{
+		"trigger": ":^)",
+		"replacement": "⁾",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904595312-cs89"
+	},
+	{
+		"trigger": ":^a",
+		"replacement": "ᵃ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904596444-lnh4"
+	},
+	{
+		"trigger": ":^b",
+		"replacement": "ᵇ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904577736-uxul"
+	},
+	{
+		"trigger": ":^c",
+		"replacement": "ᶜ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904575250-aveb"
+	},
+	{
+		"trigger": ":^d",
+		"replacement": "ᵈ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904506582-uy0r"
+	},
+	{
+		"trigger": ":^e",
+		"replacement": "ᵉ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904519727-ntan"
+	},
+	{
+		"trigger": ":^f",
+		"replacement": "ᶠ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904515061-54u0"
+	},
+	{
+		"trigger": ":^g",
+		"replacement": "ᵍ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904517029-vqt1"
+	},
+	{
+		"trigger": ":^h",
+		"replacement": "ʰ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904592593-f6z7"
+	},
+	{
+		"trigger": ":^i",
+		"replacement": "ⁱ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904548593-mb9c"
+	},
+	{
+		"trigger": ":^j",
+		"replacement": "ʲ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904563946-roet"
+	},
+	{
+		"trigger": ":^k",
+		"replacement": "ᵏ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904597195-aisi"
+	},
+	{
+		"trigger": ":^l",
+		"replacement": "ˡ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904517823-xgj6"
+	},
+	{
+		"trigger": ":^m",
+		"replacement": "ᵐ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904523192-bavf"
+	},
+	{
+		"trigger": ":^n",
+		"replacement": "ⁿ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904533291-021f"
+	},
+	{
+		"trigger": ":^o",
+		"replacement": "ᵒ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904569454-48so"
+	},
+	{
+		"trigger": ":^p",
+		"replacement": "ᵖ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904560113-08d9"
+	},
+	{
+		"trigger": ":^r",
+		"replacement": "ʳ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904533592-vcii"
+	},
+	{
+		"trigger": ":^s",
+		"replacement": "ˢ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904532341-7q1n"
+	},
+	{
+		"trigger": ":^t",
+		"replacement": "ᵗ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904582475-1ybg"
+	},
+	{
+		"trigger": ":^u",
+		"replacement": "ᵘ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904520732-gwpx"
+	},
+	{
+		"trigger": ":^v",
+		"replacement": "ᵛ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904568060-1wwz"
+	},
+	{
+		"trigger": ":^w",
+		"replacement": "ʷ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904575037-he0t"
+	},
+	{
+		"trigger": ":^x",
+		"replacement": "ˣ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904580790-kjps"
+	},
+	{
+		"trigger": ":^y",
+		"replacement": "ʸ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904528685-nlnj"
+	},
+	{
+		"trigger": ":^z",
+		"replacement": "ᶻ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904588719-ls84"
+	},
+	{
+		"trigger": ":_0",
+		"replacement": "₀",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904517747-x6qd"
+	},
+	{
+		"trigger": ":_1",
+		"replacement": "₁",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904561381-bcsa"
+	},
+	{
+		"trigger": ":_2",
+		"replacement": "₂",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904550385-c3ok"
+	},
+	{
+		"trigger": ":_3",
+		"replacement": "₃",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904570308-9qq1"
+	},
+	{
+		"trigger": ":_4",
+		"replacement": "₄",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904586292-znu9"
+	},
+	{
+		"trigger": ":_5",
+		"replacement": "₅",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904546791-aw5m"
+	},
+	{
+		"trigger": ":_6",
+		"replacement": "₆",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904541081-clrj"
+	},
+	{
+		"trigger": ":_7",
+		"replacement": "₇",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904600539-aifv"
+	},
+	{
+		"trigger": ":_8",
+		"replacement": "₈",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904594568-z99x"
+	},
+	{
+		"trigger": ":_9",
+		"replacement": "₉",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904581437-gcf1"
+	},
+	{
+		"trigger": ":_+",
+		"replacement": "₊",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904555303-xenl"
+	},
+	{
+		"trigger": ":_-",
+		"replacement": "₋",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904530626-ugrj"
+	},
+	{
+		"trigger": ":_=",
+		"replacement": "₌",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904568815-1c15"
+	},
+	{
+		"trigger": ":_(",
+		"replacement": "₍",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904566808-iuaa"
+	},
+	{
+		"trigger": ":_)",
+		"replacement": "₎",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904564609-t8pj"
+	},
+	{
+		"trigger": ":_a",
+		"replacement": "ₐ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904539289-44bc"
+	},
+	{
+		"trigger": ":_e",
+		"replacement": "ₑ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904581358-nv1o"
+	},
+	{
+		"trigger": ":_h",
+		"replacement": "ₕ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904591392-w5cs"
+	},
+	{
+		"trigger": ":_i",
+		"replacement": "ᵢ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904517908-igyo"
+	},
+	{
+		"trigger": ":_j",
+		"replacement": "ⱼ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904568600-ocla"
+	},
+	{
+		"trigger": ":_k",
+		"replacement": "ₖ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904550464-ba3x"
+	},
+	{
+		"trigger": ":_l",
+		"replacement": "ₗ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904534290-bzlr"
+	},
+	{
+		"trigger": ":_m",
+		"replacement": "ₘ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904546500-cikg"
+	},
+	{
+		"trigger": ":_n",
+		"replacement": "ₙ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904594680-of18"
+	},
+	{
+		"trigger": ":_o",
+		"replacement": "ₒ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904578302-046c"
+	},
+	{
+		"trigger": ":_p",
+		"replacement": "ₚ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904576544-htkp"
+	},
+	{
+		"trigger": ":_r",
+		"replacement": "ᵣ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904532570-31tl"
+	},
+	{
+		"trigger": ":_s",
+		"replacement": "ₛ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904505654-5nqt"
+	},
+	{
+		"trigger": ":_t",
+		"replacement": "ₜ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904574080-6cf0"
+	},
+	{
+		"trigger": ":_u",
+		"replacement": "ᵤ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904564592-eomr"
+	},
+	{
+		"trigger": ":_v",
+		"replacement": "ᵥ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904514408-p9k3"
+	},
+	{
+		"trigger": ":_x",
+		"replacement": "ₓ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904587471-xl60"
+	},
+	{
+		"trigger": ":_y",
+		"replacement": "ᵧ",
+		"priority": 100,
+		"enabled": true,
+		"id": "user-1794904525305-3chw"
+	}
+]
